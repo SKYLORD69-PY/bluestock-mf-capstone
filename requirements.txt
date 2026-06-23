@@ -1,0 +1,12 @@
+# Bluestock Fintech MF Analytics Capstone — Day 1 dependencies
+# Install with: pip install -r requirements.txt
+
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.12
+plotly>=5.0
+sqlalchemy>=2.0
+requests>=2.30
+scipy>=1.10
+jupyter>=1.0

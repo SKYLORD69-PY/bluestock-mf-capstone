@@ -1,0 +1,38 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Databases (Day 2+) — keep schema.sql in git, not the binary file
+data/db/*.db
+*.sqlite3
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Jupyter
+*.ipynb_checkpoints
+
+# Large generated artifacts
+dashboard/*.pbix
+
+# Local IDE state
+.vscode/
+
+# Day 2+ generated data artifacts
+data/processed/
+data/db/
+data/raw_demo/
+
+# Keep source/raw CSVs in version control; ignore only disposable local outputs.
+# If you later generate temporary scratch files, add them explicitly here.
+
+# Optional local scratch/log files
+*.log
+*.tmp
