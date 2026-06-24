@@ -8,8 +8,7 @@ venv/
 .venv/
 env/
 
-# Databases (Day 2+) — keep schema.sql in git, not the binary file
-data/db/*.db
+
 *.sqlite3
 
 # OS junk
