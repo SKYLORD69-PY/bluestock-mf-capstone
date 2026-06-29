@@ -1,0 +1,8 @@
+{
+  "name": "bluestock-mf-capstone",
+  "private": true,
+  "description": "Dev-only dependency for scripts/_test_dashboard_html.js, which runtime-tests dashboard/bluestock_dashboard.html via jsdom. Not required to use the dashboard itself - only to re-verify its JS after editing it.",
+  "devDependencies": {
+    "jsdom": "^29.1.1"
+  }
+}
